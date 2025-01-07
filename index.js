@@ -1,8 +1,13 @@
+//task1:-
+
 // const fs = require('fs');
-
-
 // const folderName = 'space_project';
+// fs.mkdirSync(folderName);
 
+//asynchroniz
+
+// const fs = require('fs');
+// const folderName = 'space_project';
 
 // fs.mkdir(folderName, { recursive: true }, (err) => {
 //   if (err) {
@@ -13,6 +18,7 @@
 // });
 
 
+// task2:-
 
 //syncronous
 
@@ -21,6 +27,7 @@
 // const filePath = "space_project/log1.txt";
 
 // fs.writeFileSync(filePath, content);
+
   
 // //Asyncronous
 
@@ -70,13 +77,15 @@
 
 
 //Asyncronous
+const fs = require('fs');
+ const content = "\n The current Aditya-L1 team of scientists is mentoring new talent for working on the Gaganyaan mission"
 
-// fs.appendFile(filePath,content,(err)=>{
-//     if(err){
-//         throw err
-//     }
-//     console.log(`Content ${filePath} appended successfully`)
-// })
+fs.appendFile(filePath,content,(err)=>{
+    if(err){
+        throw err
+    }
+    console.log(`Content ${filePath} appended successfully`)
+})
 
 //task5:-
 
