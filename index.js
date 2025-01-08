@@ -77,15 +77,15 @@
 
 
 //Asyncronous
-const fs = require('fs');
- const content = "\n The current Aditya-L1 team of scientists is mentoring new talent for working on the Gaganyaan mission"
+// const fs = require('fs');
+//  const content = "\n The current Aditya-L1 team of scientists is mentoring new talent for working on the Gaganyaan mission"
 
-fs.appendFile(filePath,content,(err)=>{
-    if(err){
-        throw err
-    }
-    console.log(`Content ${filePath} appended successfully`)
-})
+// fs.appendFile(filePath,content,(err)=>{
+//     if(err){
+//         throw err
+//     }
+//     console.log(`Content ${filePath} appended successfully`)
+// })
 
 //task5:-
 
